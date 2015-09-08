@@ -1,0 +1,132 @@
+* {
+    color: #999;
+    font-family: sans-serif;
+}
+
+html, body {
+    background-color: #333 !important;
+}
+
+#site-wrapper {
+    height: 100%;
+}
+
+h1, h2, h3, h4, h5 {
+    margin: 0;
+}
+
+p {
+    padding-left: 20px;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none !important;
+    color: darksalmon !important;
+    transition: all 250ms;
+}
+
+a:hover {
+    color: burlywood !important;
+    text-decoration: none !important;
+}
+
+nav {
+    padding-top: 14px;
+    position: absolute;
+    right: 20%;
+    top: 14px;
+    border-left: 100px solid #333;
+    border-top-left-radius: 30px;
+    border-bottom-left-radius: 5px;
+    transition: all 250ms;
+}
+
+nav > ul > li {
+    float: left;
+    margin-right: 10px;
+}
+
+nav > ul > li > a {
+    transition: all 250ms;
+    border-radius: 4px;
+    color: #999 !important;
+    border: 10px solid #444;
+    top: -6px;
+    left: -20px;
+    position: relative;
+}
+
+nav > ul > li > a:hover {
+    color: aqua !important;
+    background-color: cadetblue;
+    border-color: cadetblue;
+}
+
+#header {
+  background-color: #444;
+  box-shadow: 2px -2px 5px #000;
+  height: 80px;
+}
+
+.page-content {
+    background-color: #222;
+    padding: 10px;
+    box-shadow: 2px 2px 5px #000;
+}
+
+#footer {
+  background-color: #444;
+  box-shadow: 2px 2px 5px #000;
+  height: 80px;
+  bottom: 0;
+  position: absolute;
+}
+
+.copy {
+    text-align: center;
+    margin-top: 30px;
+    padding-left: 0;
+}
+
+.contact-info {
+    padding-left: 20px;
+}
+
+.contact-info > span {
+  line-height: 36px;
+  padding: 0 0 0 10px;
+  position: absolute;
+}
+
+#page-home {}
+
+#page-about {}
+
+#page-gallery {}
+
+#page-contact {}
+
+@media screen and (max-width: 512px) {
+    
+    nav {
+        right: 5%;
+    }
+    
+    nav > ul > li > a {
+        
+        border: none;
+        
+    }
+    
+    nav > ul > li > a:hover {
+        
+        border: none;
+        background: none;
+        
+    }
+    
+}
