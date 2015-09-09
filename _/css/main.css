@@ -82,8 +82,10 @@ nav > ul > li > a:hover {
   background-color: #444;
   box-shadow: 2px 2px 5px #000;
   height: 80px;
-  bottom: 0;
   position: absolute;
+  width: 100%;
+  bottom: 0;
+  display: block;
 }
 
 .copy {
